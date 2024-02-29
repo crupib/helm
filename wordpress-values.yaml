@@ -1,0 +1,8 @@
+wordpressUsername: helm-user
+wordpressPassword: my-password
+wordpressEmail: crupib@gmail.com
+wordpressFirstName: Helm_is
+wordpressLastName: Fun
+wordpressBlogName: Learn Helm!
+service:
+  type: NodePort
