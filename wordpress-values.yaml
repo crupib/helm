@@ -6,3 +6,8 @@ wordpressLastName: Fun
 wordpressBlogName: Learn Helm!
 service:
   type: NodePort
+replicaCount: 2
+resources:
+  requests:
+    memory: 256Mi
+    cpu: 100m
