@@ -10,4 +10,4 @@ replicaCount: 2
 resources:
   requests:
     memory: 256Mi
-    cpu: 100m
+    cpu: 150m

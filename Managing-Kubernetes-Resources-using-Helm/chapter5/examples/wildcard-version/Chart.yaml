@@ -1,0 +1,10 @@
+apiVersion: v2
+name: basic-fields
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: 19.0.4
+dependencies:
+- name: mariadb
+  version: "11.x.x"
+  repository: https://charts.bitnami.com/bitnami
